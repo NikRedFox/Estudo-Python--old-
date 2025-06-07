@@ -1,0 +1,6 @@
+frase = input('Digite uma frase: ')
+a = frase.upper().strip()
+b = a.count('A')
+c = a.find('A')
+d = a.rfind('A')
+print(f'A frase contem {b} vezes a letra A \nEla primeiro aparece na posição {c} \nE aparece por ultimo na posição {d} ')

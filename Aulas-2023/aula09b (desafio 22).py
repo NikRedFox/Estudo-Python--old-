@@ -1,0 +1,7 @@
+n = input('Digite seu nome completo: ')
+nu = n.upper()
+nl = n.lower()
+t = len(n.replace(' ', ''))
+ns = n.split()
+t2 = len(ns[0])
+print(f'{nu} \n{nl} \nO nome tem {t} espaços \nO primeiro nome tem {t2} letras')
